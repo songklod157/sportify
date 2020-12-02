@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: rgb(8,3,30);
+    background: linear-gradient(0deg, rgb(5, 1, 26) 54%, rgb(9, 6, 34) 80%, rgb(8, 13, 37) 100%);
+    padding-right: 5rem;
+    padding-left: 5rem;
+    border-radius: .6em;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/1954/black-and-white-lights-abstract-curves.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.header-top{
+    padding: 2rem 0;
+}
+.header-top h1{
+    color: #fff;
+}
+ul.menu{
+    margin-top: 1rem;
+    display: flex;
+    font-size: 12px;
+    list-style: none;
+}
+ul.menu li{
+    margin-right: 2rem;
+}
+ul.menu li a{
+    color: rgb(191, 191, 191); 
+    text-decoration: none;
+    transition: 0.3s;
+    padding-bottom: 4px;
+    border-bottom:2px solid transparent; 
+}
+ul.menu li a:hover{
+    color: #fff;
+    border-bottom: 2px solid rgb(96,255, 72);
+}
+.sectitle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    border-bottom: 1px solid rgb(95, 95, 95);
+    padding-bottom: 1rem;
+}
+.sec-1 a{
+    color: white;
+    margin-left: 0.5rem;
+}
+.sec-2 i{
+    color: rgb(35, 173, 14);
+}
+.secgrid{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+}
+.secitem{
+    color: white;
+    font-size: 12px;
+}
+.sec-img img{
+    width: 100%;
+    height: 100px;
+
+}
+.sec-info{
+    margin-top: 0.5rem;
+    text-align: center;
+    
+}
+.sec-info h3{
+    margin: .5rem 0;
+}
+.sec-info p{
+    color: rgb(191, 191, 191); 
+}
+.box1 p{
+    margin-top: 1rem;
+    padding: .2em;
+    background-color: seagreen;
+    border-radius: .3em;
+    color: white;
+    opacity: 50%;
+}
+footer{
+    margin-top: 2rem;
+    color: rgba(120,120,120,1);
+    text-align: center;
+}
+.footer-grid{
+    padding-top: 1rem;
+    border-top: 1px solid rgb(179, 179, 179);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+.footer-items img{
+    width: 100%;
+}
+.footer-items p{
+    color: rgb(191, 191, 191); 
+    font-size: 14px;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+.footer-img{
+    position: relative;
+}
+.footer-img img{
+    filter: opacity(60%);
+    height: 100px;
+}
+.footer-img h3{
+    z-index: 10;
+    color: rgb(197, 197, 197); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
